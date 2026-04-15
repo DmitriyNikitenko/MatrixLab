@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr01.ml output.txt && cmp output.txt tests/progr01.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr02.ml output.txt && cmp output.txt tests/progr02.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr03.ml output.txt && cmp output.txt tests/progr03.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr05.ml output.txt && cmp output.txt tests/progr05.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr06.ml output.txt && cmp output.txt tests/progr06.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr07.ml output.txt && cmp output.txt tests/progr07.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr08.ml output.txt && cmp output.txt tests/progr08.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "timeout 30 ./matrixlab tests/progr09.ml output.txt && cmp output.txt tests/progr09.ans",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

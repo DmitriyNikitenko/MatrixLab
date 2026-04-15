@@ -1,0 +1,6 @@
+(= Q (linspace 1 4 4))
+(= O4 (ones 4 4))
+(= W (./ O4 (- (+ (* (transpose Q) (ones 1 4)) (* (ones 4 1) Q)) O4)))
+(disp (sum W))
+(disp (prod W))
+(disp (det W))

@@ -1,0 +1,6 @@
+(= A (vertcat (horzcat 8 1 6) (horzcat 3 5 7) (horzcat 4 9 2)))
+(= b (vertcat 1 2 3))
+(= X (* (inv A) b))
+(disp X)
+(= Y (/ (transpose b) A))
+(disp Y)
