@@ -24,6 +24,10 @@ jobs:
              cmake --build .
       - name: Autograding
         uses: amcp-pit/autograding@v1
+      - name: Install valgrind
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y valgrind
       - name: Memory leaks
         run: |
              valgrind --tool=memcheck --leak-check=full --undef-value-errors=no --error-exitcode=111 ./matrixlab tests/progr08.ml output.txt
