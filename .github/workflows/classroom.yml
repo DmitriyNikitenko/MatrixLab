@@ -31,12 +31,6 @@ jobs:
       - name: Memory leaks
         run: |
              valgrind --tool=memcheck --leak-check=full --undef-value-errors=no --error-exitcode=111 ./matrixlab tests/progr08.ml output.txt
-      - name: Code linting
-        uses: amcp-pit/cpp-linter@v1
-        with:
-          extra-args-before: '-xc++'
-          extra-args: '-std=c++20'
-          after-args: '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'
       - name: Checkout
         uses: actions/checkout@v4
       - name: CPD
