@@ -1,6 +1,7 @@
 #include "../include/biginteger.h"
 #include <cstdint>
 #include <string>
+#include <algorithm>
 #include <stdexcept>
 
 //---------------------------------------П Р И В А Т Н Ы Е   Ф У Н К Ц И И-------------------------------------------------------------
