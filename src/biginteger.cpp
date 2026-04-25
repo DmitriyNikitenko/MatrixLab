@@ -1,4 +1,4 @@
-#include "../include/biginteger.hpp"
+#include "../include/biginteger.h"
 #include <cstdint>
 #include <string>
 #include <stdexcept>
